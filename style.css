@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-image: url(https://images5.alphacoders.com/428/thumb-1920-428105.jpg);
+    background-size: cover;
+}
+
+main{
+    width: 70%;
+    margin: 20px auto;
+}
+
+header, nav, footer{
+    color: white;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 15px 0px 15px;
+    color: white;
+}
+
+header, footer{
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+}
+
+header>h1{
+    position: relative;
+    bottom: 13px;
+    display: inline-block;
+}
+
+nav>button, nav>input {
+    padding: 8px 06px 6px;
+    border-radius: 10px;
+}
+
+nav>p{
+    margin: 10px 0px 10px;
+}
+
+#unread{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 8px 5px 5px;
+}
+
+nav>p {
+    margin-top: 15px;
+}
+
+.mail {
+    padding: 5px 0;
+    width:100%;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.mail.read {
+    background-color: white;
+}
+
+.mail.unread {
+    background-color: lightgrey;
+}
+
+.mail>.title{
+    width: 30%;
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.mail>.object{
+    width: 68%;
+    display: inline-block;
+    color: black;
+}
+
+footer span{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: lighter;
+}
